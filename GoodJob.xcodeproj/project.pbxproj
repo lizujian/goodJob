@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1418F28C14EF82C900720D14 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1418F28B14EF82C900720D14 /* UIKit.framework */; };
+		1418F28E14EF82C900720D14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1418F28D14EF82C900720D14 /* Foundation.framework */; };
+		1418F29014EF82C900720D14 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1418F28F14EF82C900720D14 /* CoreGraphics.framework */; };
+		1418F29614EF82C900720D14 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1418F29414EF82C900720D14 /* InfoPlist.strings */; };
+		1418F29814EF82C900720D14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1418F29714EF82C900720D14 /* main.m */; };
+		1418F29C14EF82C900720D14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1418F29B14EF82C900720D14 /* AppDelegate.m */; };
+		1418F29F14EF82C900720D14 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1418F29E14EF82C900720D14 /* FirstViewController.m */; };
+		1418F2A114EF82C900720D14 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 1418F2A014EF82C900720D14 /* first.png */; };
+		1418F2A314EF82C900720D14 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1418F2A214EF82C900720D14 /* first@2x.png */; };
+		1418F2A614EF82C900720D14 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1418F2A514EF82C900720D14 /* SecondViewController.m */; };
+		1418F2A814EF82C900720D14 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 1418F2A714EF82C900720D14 /* second.png */; };
+		1418F2AA14EF82C900720D14 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1418F2A914EF82C900720D14 /* second@2x.png */; };
+		1418F2AD14EF82C900720D14 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1418F2AB14EF82C900720D14 /* FirstViewController.xib */; };
+		1418F2B014EF82C900720D14 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1418F2AE14EF82C900720D14 /* SecondViewController.xib */; };
+		1418F2BD14EF845700720D14 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1418F2BB14EF845700720D14 /* ThirdViewController.m */; };
+		1418F2BE14EF845700720D14 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1418F2BC14EF845700720D14 /* ThirdViewController.xib */; };
+		1418F2C214EF846E00720D14 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1418F2C014EF846E00720D14 /* FourthViewController.m */; };
+		1418F2C314EF846E00720D14 /* FourthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1418F2C114EF846E00720D14 /* FourthViewController.xib */; };
+		1418F2C714EF848700720D14 /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1418F2C514EF848700720D14 /* FifthViewController.m */; };
+		1418F2C814EF848700720D14 /* FifthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1418F2C614EF848700720D14 /* FifthViewController.xib */; };
+		1418F2CF14EF882C00720D14 /* TimeScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 1418F2CE14EF882C00720D14 /* TimeScroller.m */; };
+		1418F2D114EF884500720D14 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1418F2D014EF884500720D14 /* QuartzCore.framework */; };
+		1418F2D814EF896000720D14 /* timescroll_hourhand.png in Resources */ = {isa = PBXBuildFile; fileRef = 1418F2D214EF896000720D14 /* timescroll_hourhand.png */; };
+		1418F2D914EF896000720D14 /* timescroll_hourhand@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1418F2D314EF896000720D14 /* timescroll_hourhand@2x.png */; };
+		1418F2DA14EF896000720D14 /* timescroll_minutehand.png in Resources */ = {isa = PBXBuildFile; fileRef = 1418F2D414EF896000720D14 /* timescroll_minutehand.png */; };
+		1418F2DB14EF896000720D14 /* timescroll_minutehand@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1418F2D514EF896000720D14 /* timescroll_minutehand@2x.png */; };
+		1418F2DC14EF896000720D14 /* timescroll_pointer.png in Resources */ = {isa = PBXBuildFile; fileRef = 1418F2D614EF896000720D14 /* timescroll_pointer.png */; };
+		1418F2DD14EF896000720D14 /* timescroll_pointer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1418F2D714EF896000720D14 /* timescroll_pointer@2x.png */; };
+		1418F2E114EF8CCA00720D14 /* FourthSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1418F2DF14EF8CCA00720D14 /* FourthSettingViewController.m */; };
+		1418F2E214EF8CCA00720D14 /* FourthSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1418F2E014EF8CCA00720D14 /* FourthSettingViewController.xib */; };
+		1490BC7914EF934700B4C6E8 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1490BC7814EF934700B4C6E8 /* data.plist */; };
+		1490BC8414EF974200B4C6E8 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1490BC8314EF974200B4C6E8 /* EventKit.framework */; };
+		1490BC8714EF974700B4C6E8 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1490BC8614EF974700B4C6E8 /* EventKitUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1418F28714EF82C900720D14 /* GoodJob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodJob.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1418F28B14EF82C900720D14 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1418F28D14EF82C900720D14 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1418F28F14EF82C900720D14 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1418F29314EF82C900720D14 /* GoodJob-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoodJob-Info.plist"; sourceTree = "<group>"; };
+		1418F29514EF82C900720D14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1418F29714EF82C900720D14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1418F29914EF82C900720D14 /* GoodJob-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoodJob-Prefix.pch"; sourceTree = "<group>"; };
+		1418F29A14EF82C900720D14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1418F29B14EF82C900720D14 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1418F29D14EF82C900720D14 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		1418F29E14EF82C900720D14 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		1418F2A014EF82C900720D14 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		1418F2A214EF82C900720D14 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		1418F2A414EF82C900720D14 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		1418F2A514EF82C900720D14 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		1418F2A714EF82C900720D14 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		1418F2A914EF82C900720D14 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		1418F2AC14EF82C900720D14 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
+		1418F2AF14EF82C900720D14 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController.xib; sourceTree = "<group>"; };
+		1418F2BA14EF845700720D14 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		1418F2BB14EF845700720D14 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		1418F2BC14EF845700720D14 /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		1418F2BF14EF846E00720D14 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		1418F2C014EF846E00720D14 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		1418F2C114EF846E00720D14 /* FourthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FourthViewController.xib; sourceTree = "<group>"; };
+		1418F2C414EF848700720D14 /* FifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthViewController.h; sourceTree = "<group>"; };
+		1418F2C514EF848700720D14 /* FifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthViewController.m; sourceTree = "<group>"; };
+		1418F2C614EF848700720D14 /* FifthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FifthViewController.xib; sourceTree = "<group>"; };
+		1418F2CD14EF882C00720D14 /* TimeScroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeScroller.h; sourceTree = "<group>"; };
+		1418F2CE14EF882C00720D14 /* TimeScroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeScroller.m; sourceTree = "<group>"; };
+		1418F2D014EF884500720D14 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1418F2D214EF896000720D14 /* timescroll_hourhand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timescroll_hourhand.png; sourceTree = "<group>"; };
+		1418F2D314EF896000720D14 /* timescroll_hourhand@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "timescroll_hourhand@2x.png"; sourceTree = "<group>"; };
+		1418F2D414EF896000720D14 /* timescroll_minutehand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timescroll_minutehand.png; sourceTree = "<group>"; };
+		1418F2D514EF896000720D14 /* timescroll_minutehand@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "timescroll_minutehand@2x.png"; sourceTree = "<group>"; };
+		1418F2D614EF896000720D14 /* timescroll_pointer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timescroll_pointer.png; sourceTree = "<group>"; };
+		1418F2D714EF896000720D14 /* timescroll_pointer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "timescroll_pointer@2x.png"; sourceTree = "<group>"; };
+		1418F2DE14EF8CC900720D14 /* FourthSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthSettingViewController.h; sourceTree = "<group>"; };
+		1418F2DF14EF8CCA00720D14 /* FourthSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthSettingViewController.m; sourceTree = "<group>"; };
+		1418F2E014EF8CCA00720D14 /* FourthSettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FourthSettingViewController.xib; sourceTree = "<group>"; };
+		1490BC7814EF934700B4C6E8 /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+		1490BC8314EF974200B4C6E8 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		1490BC8614EF974700B4C6E8 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1418F28414EF82C900720D14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1490BC8714EF974700B4C6E8 /* EventKitUI.framework in Frameworks */,
+				1490BC8414EF974200B4C6E8 /* EventKit.framework in Frameworks */,
+				1418F2D114EF884500720D14 /* QuartzCore.framework in Frameworks */,
+				1418F28C14EF82C900720D14 /* UIKit.framework in Frameworks */,
+				1418F28E14EF82C900720D14 /* Foundation.framework in Frameworks */,
+				1418F29014EF82C900720D14 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1418F27C14EF82C900720D14 = {
+			isa = PBXGroup;
+			children = (
+				1490BC8614EF974700B4C6E8 /* EventKitUI.framework */,
+				1490BC8314EF974200B4C6E8 /* EventKit.framework */,
+				1418F2D014EF884500720D14 /* QuartzCore.framework */,
+				1418F29114EF82C900720D14 /* GoodJob */,
+				1418F28A14EF82C900720D14 /* Frameworks */,
+				1418F28814EF82C900720D14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1418F28814EF82C900720D14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1418F28714EF82C900720D14 /* GoodJob.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1418F28A14EF82C900720D14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1418F28B14EF82C900720D14 /* UIKit.framework */,
+				1418F28D14EF82C900720D14 /* Foundation.framework */,
+				1418F28F14EF82C900720D14 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1418F29114EF82C900720D14 /* GoodJob */ = {
+			isa = PBXGroup;
+			children = (
+				1418F2CD14EF882C00720D14 /* TimeScroller.h */,
+				1418F2CE14EF882C00720D14 /* TimeScroller.m */,
+				1418F29A14EF82C900720D14 /* AppDelegate.h */,
+				1418F29B14EF82C900720D14 /* AppDelegate.m */,
+				1418F29D14EF82C900720D14 /* FirstViewController.h */,
+				1418F29E14EF82C900720D14 /* FirstViewController.m */,
+				1418F2A014EF82C900720D14 /* first.png */,
+				1418F2A214EF82C900720D14 /* first@2x.png */,
+				1418F2A414EF82C900720D14 /* SecondViewController.h */,
+				1418F2A514EF82C900720D14 /* SecondViewController.m */,
+				1418F2A714EF82C900720D14 /* second.png */,
+				1418F2A914EF82C900720D14 /* second@2x.png */,
+				1418F2AB14EF82C900720D14 /* FirstViewController.xib */,
+				1418F2AE14EF82C900720D14 /* SecondViewController.xib */,
+				1418F29214EF82C900720D14 /* Supporting Files */,
+				1418F2BA14EF845700720D14 /* ThirdViewController.h */,
+				1418F2BB14EF845700720D14 /* ThirdViewController.m */,
+				1418F2BC14EF845700720D14 /* ThirdViewController.xib */,
+				1418F2BF14EF846E00720D14 /* FourthViewController.h */,
+				1418F2C014EF846E00720D14 /* FourthViewController.m */,
+				1418F2C114EF846E00720D14 /* FourthViewController.xib */,
+				1418F2C414EF848700720D14 /* FifthViewController.h */,
+				1418F2C514EF848700720D14 /* FifthViewController.m */,
+				1418F2C614EF848700720D14 /* FifthViewController.xib */,
+				1418F2DE14EF8CC900720D14 /* FourthSettingViewController.h */,
+				1418F2DF14EF8CCA00720D14 /* FourthSettingViewController.m */,
+				1418F2E014EF8CCA00720D14 /* FourthSettingViewController.xib */,
+			);
+			path = GoodJob;
+			sourceTree = "<group>";
+		};
+		1418F29214EF82C900720D14 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1490BC7814EF934700B4C6E8 /* data.plist */,
+				1418F2D214EF896000720D14 /* timescroll_hourhand.png */,
+				1418F2D314EF896000720D14 /* timescroll_hourhand@2x.png */,
+				1418F2D414EF896000720D14 /* timescroll_minutehand.png */,
+				1418F2D514EF896000720D14 /* timescroll_minutehand@2x.png */,
+				1418F2D614EF896000720D14 /* timescroll_pointer.png */,
+				1418F2D714EF896000720D14 /* timescroll_pointer@2x.png */,
+				1418F29314EF82C900720D14 /* GoodJob-Info.plist */,
+				1418F29414EF82C900720D14 /* InfoPlist.strings */,
+				1418F29714EF82C900720D14 /* main.m */,
+				1418F29914EF82C900720D14 /* GoodJob-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1418F28614EF82C900720D14 /* GoodJob */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1418F2B314EF82C900720D14 /* Build configuration list for PBXNativeTarget "GoodJob" */;
+			buildPhases = (
+				1418F28314EF82C900720D14 /* Sources */,
+				1418F28414EF82C900720D14 /* Frameworks */,
+				1418F28514EF82C900720D14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoodJob;
+			productName = GoodJob;
+			productReference = 1418F28714EF82C900720D14 /* GoodJob.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1418F27E14EF82C900720D14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1418F28114EF82C900720D14 /* Build configuration list for PBXProject "GoodJob" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1418F27C14EF82C900720D14;
+			productRefGroup = 1418F28814EF82C900720D14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1418F28614EF82C900720D14 /* GoodJob */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1418F28514EF82C900720D14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1418F29614EF82C900720D14 /* InfoPlist.strings in Resources */,
+				1418F2A114EF82C900720D14 /* first.png in Resources */,
+				1418F2A314EF82C900720D14 /* first@2x.png in Resources */,
+				1418F2A814EF82C900720D14 /* second.png in Resources */,
+				1418F2AA14EF82C900720D14 /* second@2x.png in Resources */,
+				1418F2AD14EF82C900720D14 /* FirstViewController.xib in Resources */,
+				1418F2B014EF82C900720D14 /* SecondViewController.xib in Resources */,
+				1418F2BE14EF845700720D14 /* ThirdViewController.xib in Resources */,
+				1418F2C314EF846E00720D14 /* FourthViewController.xib in Resources */,
+				1418F2C814EF848700720D14 /* FifthViewController.xib in Resources */,
+				1418F2D814EF896000720D14 /* timescroll_hourhand.png in Resources */,
+				1418F2D914EF896000720D14 /* timescroll_hourhand@2x.png in Resources */,
+				1418F2DA14EF896000720D14 /* timescroll_minutehand.png in Resources */,
+				1418F2DB14EF896000720D14 /* timescroll_minutehand@2x.png in Resources */,
+				1418F2DC14EF896000720D14 /* timescroll_pointer.png in Resources */,
+				1418F2DD14EF896000720D14 /* timescroll_pointer@2x.png in Resources */,
+				1418F2E214EF8CCA00720D14 /* FourthSettingViewController.xib in Resources */,
+				1490BC7914EF934700B4C6E8 /* data.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1418F28314EF82C900720D14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1418F29814EF82C900720D14 /* main.m in Sources */,
+				1418F29C14EF82C900720D14 /* AppDelegate.m in Sources */,
+				1418F29F14EF82C900720D14 /* FirstViewController.m in Sources */,
+				1418F2A614EF82C900720D14 /* SecondViewController.m in Sources */,
+				1418F2BD14EF845700720D14 /* ThirdViewController.m in Sources */,
+				1418F2C214EF846E00720D14 /* FourthViewController.m in Sources */,
+				1418F2C714EF848700720D14 /* FifthViewController.m in Sources */,
+				1418F2CF14EF882C00720D14 /* TimeScroller.m in Sources */,
+				1418F2E114EF8CCA00720D14 /* FourthSettingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1418F29414EF82C900720D14 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1418F29514EF82C900720D14 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1418F2AB14EF82C900720D14 /* FirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1418F2AC14EF82C900720D14 /* en */,
+			);
+			name = FirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		1418F2AE14EF82C900720D14 /* SecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1418F2AF14EF82C900720D14 /* en */,
+			);
+			name = SecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1418F2B114EF82C900720D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1418F2B214EF82C900720D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1418F2B414EF82C900720D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoodJob/GoodJob-Prefix.pch";
+				INFOPLIST_FILE = "GoodJob/GoodJob-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1418F2B514EF82C900720D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoodJob/GoodJob-Prefix.pch";
+				INFOPLIST_FILE = "GoodJob/GoodJob-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1418F28114EF82C900720D14 /* Build configuration list for PBXProject "GoodJob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1418F2B114EF82C900720D14 /* Debug */,
+				1418F2B214EF82C900720D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1418F2B314EF82C900720D14 /* Build configuration list for PBXNativeTarget "GoodJob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1418F2B414EF82C900720D14 /* Debug */,
+				1418F2B514EF82C900720D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1418F27E14EF82C900720D14 /* Project object */;
+}
